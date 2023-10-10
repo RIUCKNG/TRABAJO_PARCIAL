@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Mascotas</title>
+    <link rel="stylesheet" type="text/css" href="css/lab1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* Estilos para centrar y agregar cuadros */
+        .perro {
+            text-align: center;
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        /* Estilos para los precios */
+        .precio {
+            font-weight: bold;
+        }
+
+        /* Estilos para los botones de registro */
+        .button {
+            background-color: #0a0a0a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Estilos para el contenedor de botones de registro */
+        .registro-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="registro-container">
+        <button href="#" class="button "onclick="cerrarSesion()">Cerrar Sesión</button>
+        <button href="#" class="button" onclick="location.href='nuevo_registro_datos.html'">Registro de Datos</button>
+
+    </div>
+    <header>
+        <script>
+            function cerrarSesion() {
+                alert("Sesión cerrada"); 
+                window.location.href = "nuevo_inicio_seccion.html";
+            }
+        </script>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.youtube.com/@ExpertoAnimal">Perros Atléticos</a></li>
+            <!-- Agregar más enlaces de navegación si es necesario -->
+        </ul>
+    </nav>
+    <section id="perros-atleticos">
+        <h2>Razas de Perros</h2>
+
+        <!-- Repite la estructura de los artículos de perro -->
+
+        <article class="perro">
+            <h3>Doberman</h3>
+            <img src="img/doberman.png" alt="Imagen de Doberman" width="200">
+            <p>
+                El Doberman es un perro de gran compostura atlética, idóneo para todo tipo de entrenamiento. Se recomienda alimentarlo con comida balanceada.
+            </p>
+            <p class="precio">Precio: $1000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+        </article>
+
+        <article class="perro">
+            <h3>Pastor Alemán</h3>
+            <img src="img/pastoraleman.jpg" alt="Imagen de Pastor Alemán" width="200">
+            <p>
+                Son muy fáciles de adiestrar, debido a su inteligencia, atención y 
+                disposición a complacer. Por ello, son muy utilizados como perros de pastoreo, 
+                guarda, policía y, por supuesto, compañía. También son animales muy valientes, 
+                instintivos y seguros de sí mismos, 
+                por lo que pueden ser buenos perros de protección
+            </p>
+            <p class="precio">Precio: $2000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+        </article>
+
+        <article class="perro">
+            <h3>Labrador</h3>
+            <img src="img/labrador.jpg" alt="Imagen de Labrador" width="200">
+            <p>
+                Este tipo de perros son conocidos por ser muy sociables y 
+                cariñosos. Por ello, se utilizan como perros terapéuticos
+                y son una excelente compañía en el hogar. 
+                Además, estos animales poseen una gran empatía con los seres humanos. 
+                Son muy comunicativos, amigables y leales.
+            </p>
+            <p class="precio">Precio: $3000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+        </article>
+
+        <article class="perro">
+            <h3>Rottweiler</h3>
+            <img src="img/root.jpg" alt="Imagen de root" width="200">
+            <p>
+                Los Rottweilers son perros grandes y compactos, 
+                conocidos por su pelaje negro liso y con manchas muy definidas
+                de color óxido. Son una de las razas más fuertes y potentes del mundo.
+                A pesar del tamaño que tienen, los rottweilers 
+                son muy ágiles y pueden correr y saltar con facilidad.
+            </p>
+            <p class="precio">Precio: $4000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+        </article>
+
+        <article class="perro">
+            <h3>Boxer</h3>
+            <img src="img/boxer.jpg" alt="Imagen de boxer" width="200">
+            <p>
+                El Bóxer es un perro de tamaño mediano, musculoso, 
+                robusto y ancho de pecho. Tiene un morro corto 
+                y un mentón ligeramente curvado hacia arriba. 
+                El color del pelaje corto puede ser marrón y atigrado, 
+                normalmente con algunas marcas blancas; 
+                también puede ser totalmente blanco.
+            </p>
+            <p class="precio">Precio: $5000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+        </article>
+
+        <article class="perro">
+            <h3>Presa Canario</h3>
+            <img src="img/presa.jpg" alt="Imagen de presa" width="200">
+            <p>
+                Es un perro de tamaño medio, 
+                cabeza ancha, pelo corto y color atigrado de marrón a negro. 
+                Antiguamente se utilizaba para guardar y trabajar con el ganado, 
+                posteriormente como perro de pelea hasta que se prohibieron 
+                estos combates y casi llega a extinguirse
+            </p>
+            <p class="precio">Precio: $6000.00</p>
+            <a href="#" class="btn btn-primary" onclick="location.href='ver_detalles.html'">Ver Detalles</a>
+            
+        </article>
+        <!-- Repite la estructura de los artículos de perro -->
+
+        <a href="https://www.elmueble.com/mascotas/razas-perros-mas-conocidas_50887" target="_blank">Más información sobre razas</a>
+        <br>
+        <a href="https://www.elmueble.com/mascotas/razas-perros-mas-conocidas_50887" target="_self">Consulta Gratuita de Perros</a>
+
+        
+    </section>
+
+    <footer>
+        <p>Síguenos en: <href="#">Facebook, <a href="#">Twitter</a>, <a href="#">WhatsApp</a></p>
+    </footer>
+</body>
+</html>

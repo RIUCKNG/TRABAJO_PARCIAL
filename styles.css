@@ -1,0 +1,38 @@
+body {
+    background-image: url('/img/logo3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(90, 87, 87, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(226, 209, 110);
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#mensaje {
+    color: rgb(0, 26, 255);
+    margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+p{ 
+    font-size: 24px; 
+    font-family: Arial, sans-serif;
+    text-align: justify; 
+    color: rgb(255, 255, 255)
+
+}
+
+h1{ 
+    font-size: 45px; 
+    text-align: center;
+    color: white  
+}
+
+h2{ 
+    font-size: 70px; 
+    text-align: center;
+    color: white  
+}
+
+ul{
+    font-size: 50px;
+    text-align: center;
+    color: red
+}
+
+body{ 
+    background: url(../img/logo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
